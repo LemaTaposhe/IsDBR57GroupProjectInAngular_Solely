@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Solely_UI", ".", "{ACAD6E49-9644-42CA-9EB6-294967D9D6F3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4154"
+		Debug.AspNetCompiler.PhysicalPath = "G:\LeeR57\Solely_UI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4154\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4154"
+		Release.AspNetCompiler.PhysicalPath = "G:\LeeR57\Solely_UI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4154\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4154"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACAD6E49-9644-42CA-9EB6-294967D9D6F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACAD6E49-9644-42CA-9EB6-294967D9D6F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {283C865E-5FE8-45AE-87ED-CA700314CB47}
+	EndGlobalSection
+EndGlobal

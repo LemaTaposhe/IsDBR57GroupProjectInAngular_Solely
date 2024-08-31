@@ -1,0 +1,16 @@
+/* app.component.css */
+nav {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  nav a.active {
+    font-weight: bold;
+  }
+  

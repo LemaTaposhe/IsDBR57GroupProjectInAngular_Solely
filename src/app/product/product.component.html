@@ -1,0 +1,14 @@
+<!-- src/app/components/product/product.component.html -->
+
+<div class="product-container">
+    <div class="product-card" *ngFor="let product of products">
+      <img [src]="product.thumbnailImage || 'https://via.placeholder.com/150'" alt="{{product.name}}" class="product-image"/>
+      <h3>{{product.name}}</h3>
+      <p>{{product.description}}</p>
+      <p>Price: ${{product.price | number:'1.2-2'}}</p>
+      <label for="quantity-{{product.productId}}">Quantity:</label>
+      <input id="quantity-{{product.productId}}" type="number" [(ngModel)]="product.quantity" min="1" />
+      <button (click)="addToCart(product)">Add to Cart</button>
+    </div>
+  </div>
+  

@@ -1,0 +1,136 @@
+/* nav.component.css */
+
+/* Navbar background color and padding */
+.navbar {
+    background-color: #464545;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it sits above other content */
+  }
+  
+  /* Navbar brand font and color */
+  .navbar-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #db9a0c;
+  }
+  
+  /* Navbar link styles */
+  .nav-link {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-right: 15px;
+  }
+  
+  .nav-link:hover {
+    color: #769101;
+    font-style: italic;
+  }
+  
+  /* Button styles */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+  
+  /* Responsive behavior for mobile */
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    color: #333;
+  }
+
+  
+  /* Customizing cart button appearance */
+  .btn-primary {
+    font-size: 1rem;
+    padding: 6px 12px;
+  }
+  
+
+/* Make the nav-items align to the right */
+/* Ensure the navbar container uses flexbox */
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+  }
+  
+  /* Ensure nav-items are displayed inline and have space between them */
+  .navbar-nav {
+    display: flex;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Align nav-item elements to the right */
+  .nav-item {
+    margin-left: 1rem; /* Space between items */
+  }
+  
+  /* Apply bold font weight on hover */
+  .nav-link:hover {
+    font-weight: bold;
+  }
+  /* src/app/components/button/button.component.css */
+
+/* Style for the basket button */
+.basket-button {
+  display: flex;
+  align-items: center;
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  padding: 10px 20px; /* Add padding inside the button */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for a 3D effect */
+  font-size: 16px; /* Font size for the button text */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+  text-decoration: none; /* Remove underline from text if it's a link */
+  width: 60px;
+}
+
+.basket-button:hover {
+  background-color: #0056b3; /* Darker background on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.basket-button i {
+  margin-right: 5px; /* Space between icon and text */
+  margin-left: -12px;
+}
+
+/* Style for the basket count */
+.basket-count {
+  background-color: #ff4d4d; /* Background color for the count */
+  color: white; /* Text color for the count */
+  border-radius: 50%; /* Round shape */
+  font-size: 14px; /* Font size for the count */
+  font-weight: bold; /* Make the count bold */
+  min-width: 24px; /* Minimum width to ensure consistency */
+  text-align: center; /* Center text inside the count */
+  display: inline-block; /* Inline block to keep it next to the text */
+  
+}

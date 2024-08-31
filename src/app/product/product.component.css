@@ -1,0 +1,64 @@
+/* src/app/components/product/product.component.css */
+
+/* Ensure the container takes up the full width and centers its content */
+.product-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of product cards */
+    justify-content: center; /* Centers items horizontally */
+    gap: 16px; /* Adds space between product cards */
+    padding: 16px; /* Adds space around the container */
+    margin-top: 70px;
+  }
+  
+  /* Style individual product cards */
+  .product-card {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    width: 300px; /* Increased width for the card */
+    padding: 16px; /* Add padding inside the card */
+    border: 1px solid #ddd; /* Border for the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for a slight 3D effect */
+    text-align: center; /* Center text inside the card */
+  }
+  
+  /* Style for the product image */
+  .product-image {
+    max-width: 100%; /* Ensure image fits within the card */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for the image */
+  }
+  
+  /* Style for product name */
+  .product-card h3 {
+    margin: 8px 0; /* Add margin above and below the product name */
+  }
+  
+  /* Style for product description and price */
+  .product-card p {
+    margin: 4px 0; /* Add margin above and below the product description and price */
+  }
+  
+  /* Style for quantity input */
+  .product-card input[type="number"] {
+    width: 100%; /* Full width for the input */
+    padding: 8px; /* Add padding inside the input */
+    margin-bottom: 8px; /* Margin below the input */
+  }
+  
+  /* Style for the button */
+  .product-card button {
+    padding: 10px 20px; /* Add padding inside the button */
+    border: none; /* Remove default border */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 16px; /* Font size for the button text */
+  }
+  
+  .product-card button:hover {
+    background-color: #0056b3; /* Darker button background on hover */
+  }
+  

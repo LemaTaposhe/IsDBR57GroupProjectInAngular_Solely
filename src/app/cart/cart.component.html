@@ -1,0 +1,35 @@
+<!-- <p>cart works!</p>
+
+<div class="cart-container">
+  <h3>Cart</h3>
+  <p>Items in cart: {{cartCount}}</p>
+</div> -->
+
+<!-- Button in your navbar or wherever you want it -->
+<!-- <button (click)="navigateToCart()" class="basket-button">
+    <i class="fas fa-shopping-basket">Cart : </i>
+    <span class="basket-count">{{ cartItems.length }}</span>
+  </button> -->
+  
+  <!-- Cart items display -->
+  <!-- <div *ngIf="cartItems.length > 0" class="cart-items">
+    <h3>Your Cart</h3>
+    <ul>
+      <li *ngFor="let item of cartItems">
+        {{ item.name }} - Quantity: {{ item.quantity }} - Price: {{ item.price }}
+      </li>
+    </ul>
+  </div>
+   -->
+
+<!-- src/app/components/cart/cart.component.html -->
+<!-- src/app/components/cart/cart.component.html -->
+<!-- src/app/components/cart/cart.component.html -->
+<div class="cart-container">
+    <div *ngFor="let item of cartItems" class="cart-item">
+      <p>Product ID: {{ item.productId }}</p>
+      <p>Quantity: {{ item.quantity }}</p>
+      <p>Price: ${{ item.price | number:'1.2-2' }}</p>
+    </div>
+  </div>
+  
